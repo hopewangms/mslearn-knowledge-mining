@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labfiles", "Labfiles", "{DDE36710-B22C-41A3-91AF-40D8CCA35E82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-exercise-add-to-index-use-push-api lab-files", "07-exercise-add-to-index-use-push-api lab-files", "{C90344BA-8EE0-4D79-802A-6A219F1491B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptimizeDataIndexing", "Labfiles\07-exercise-add-to-index-use-push-api lab-files\OptimizeDataIndexing\OptimizeDataIndexing.csproj", "{1150CA74-F7CD-49D8-9AE3-01684BA97166}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-azure-search", "01-azure-search", "{8B9DD921-67F1-4319-9197-6CE43B8F4B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{FA8B84F4-0B86-412A-949C-C5BEA3911104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "search-client", "Labfiles\01-azure-search\C-Sharp\margies-travel\search-client.csproj", "{66A6D0D5-A36D-4BC5-82E3-E99C71B05ABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1150CA74-F7CD-49D8-9AE3-01684BA97166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1150CA74-F7CD-49D8-9AE3-01684BA97166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1150CA74-F7CD-49D8-9AE3-01684BA97166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1150CA74-F7CD-49D8-9AE3-01684BA97166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A6D0D5-A36D-4BC5-82E3-E99C71B05ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A6D0D5-A36D-4BC5-82E3-E99C71B05ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A6D0D5-A36D-4BC5-82E3-E99C71B05ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A6D0D5-A36D-4BC5-82E3-E99C71B05ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C90344BA-8EE0-4D79-802A-6A219F1491B7} = {DDE36710-B22C-41A3-91AF-40D8CCA35E82}
+		{1150CA74-F7CD-49D8-9AE3-01684BA97166} = {C90344BA-8EE0-4D79-802A-6A219F1491B7}
+		{8B9DD921-67F1-4319-9197-6CE43B8F4B5D} = {DDE36710-B22C-41A3-91AF-40D8CCA35E82}
+		{FA8B84F4-0B86-412A-949C-C5BEA3911104} = {8B9DD921-67F1-4319-9197-6CE43B8F4B5D}
+		{66A6D0D5-A36D-4BC5-82E3-E99C71B05ABD} = {FA8B84F4-0B86-412A-949C-C5BEA3911104}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36F5FCD2-7FEA-42E7-B813-2105C088A67C}
+	EndGlobalSection
+EndGlobal
